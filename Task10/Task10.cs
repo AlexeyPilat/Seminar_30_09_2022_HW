@@ -4,7 +4,7 @@
 782 -> 8
 918 -> 1 */
 
-Console.WriteLine("Давай поработаем, ммм...");
+Console.WriteLine("Давай поработаем, ммм...ваше имя?");
 string username = Console.ReadLine();
 Console.WriteLine("Аа да, да - " + username);
 
@@ -12,7 +12,7 @@ int n;
 Console.WriteLine("Введите трёхзначное число:");
 n = Convert.ToInt32(Console.ReadLine());
 
-if (n>=100)
+if (n>=100 && n<=999)
 {
  int second = (n%100)/10; 
  Console.WriteLine(second+ " ");
